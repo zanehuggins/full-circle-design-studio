@@ -338,6 +338,8 @@ h4 {
 
 .social-media .title-circle {
   background-color: #00ae97; }
+  .social-media .title-circle h3 {
+    margin-top: 1.75em; }
 .social-media .content-container {
   height: 50vh !important;
   background-color: #00ae97; }

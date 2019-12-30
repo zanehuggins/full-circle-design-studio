@@ -395,6 +395,10 @@ p{
   .social-media{
     .title-circle{
       background-color: $turqoise;
+
+      h3{
+        margin-top: 1.75em;
+      }
     }
     .content-container{
       height: 50vh !important;
