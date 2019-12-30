@@ -144,9 +144,9 @@ animation-iteration-count: infinite;
   bottom: 3em;
 }
 
-  .home-services div:nth-child(1){
-    width: 7.5em;
-    height: 7.5em;
+  .home-services a:nth-child(1) div{
+    width: 30vw;
+    height: 30vw;
     background-color: $purple;
     float: left;
     border-radius: 100%;
@@ -159,9 +159,9 @@ animation-iteration-count: infinite;
     }
   }
 
-  .home-services div:nth-child(2){
-    width: 7.5em;
-    height: 7.5em;
+  .home-services a:nth-child(2) div{
+    width: 30vw;
+    height: 30vw;
     background-color: $pink;
     border-radius: 100%;
     float: left;
@@ -174,9 +174,9 @@ animation-iteration-count: infinite;
     }
   }
 
-  .home-services div:nth-child(3){
-    width: 7.5em;
-    height: 7.5em;
+  .home-services a:nth-child(3) div{
+    width: 30vw;
+    height: 30vw;
     color: white;
     background-color: $turqoise;
     border-radius: 100%;
@@ -190,4 +190,8 @@ animation-iteration-count: infinite;
       position: absolute;
       margin-top: 1em;
     }
+  }
+
+  .home-services div{
+    margin: .5vw;
   }
