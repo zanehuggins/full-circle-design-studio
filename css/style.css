@@ -200,7 +200,7 @@ h3 {
 /* SERVICES PAGE */
 .circle-container {
   position: relative;
-  height: 46.1vh;
+  height: 45vh;
   background-image: url("../images/background.png");
   background-size: cover;
   z-index: -2; }
@@ -290,13 +290,13 @@ h3 {
     transition: 1s; }
 
 .content-container {
-  height: 46.1vh;
+  height: 46.5vh;
   background-color: #6b408e; }
   .content-container p {
     margin-top: 2em;
     line-height: 2em;
     color: white; }
-  .content-container a:nth-child(3) {
+  .content-container a:nth-child(2) {
     color: #6b408e;
     background-color: white;
     text-align: center;
