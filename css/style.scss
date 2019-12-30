@@ -235,7 +235,7 @@ p{
   /* SERVICES PAGE */
   .circle-container{
     position: relative;
-    height: 45vh;
+    height: 50vh;
     background-image: url('../images/background.png');
     background-size: cover;
     z-index:-2;
@@ -244,7 +244,7 @@ p{
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
     border-radius: 100%;
-    background-color: $purple;
+    background-color: $pink;
     margin: auto;
     width: 50vw;
     height: 50vw;
@@ -329,7 +329,7 @@ p{
     }
   }
 
-
+.branding{
   .content-container{
     height: 46.5vh;
     background-color: $purple;
@@ -339,10 +339,34 @@ p{
       line-height: 2em;
       color: white;
     }
-
+}
 
     .start-a-project{
       color: $purple;
+      background-color: white;
+      text-align: center;
+      padding: .5em;
+      font-family: itc-avant-garde-gothic-pro;
+      font-weight:500;
+      font-size: 1.25em;
+      margin-top: 1em;
+
+    }
+  }
+
+  .web{
+    .content-container{
+      height: 50vh !important;
+      background-color: $pink;
+
+      p{
+        margin-top: 3em;
+        line-height: 2em;
+        color: white;
+      }
+    }
+    .start-a-project{
+      color: $pink;
       background-color: white;
       text-align: center;
       padding: .5em;

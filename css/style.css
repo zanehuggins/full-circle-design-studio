@@ -205,7 +205,7 @@ h4 {
 /* SERVICES PAGE */
 .circle-container {
   position: relative;
-  height: 45vh;
+  height: 50vh;
   background-image: url("../images/background.png");
   background-size: cover;
   z-index: -2; }
@@ -216,7 +216,7 @@ h4 {
     left: 0;
     right: 0;
     border-radius: 100%;
-    background-color: #6b408e;
+    background-color: #ef435e;
     margin: auto;
     width: 50vw;
     height: 50vw; }
@@ -294,22 +294,39 @@ h4 {
     animation-delay: .75s;
     transition: 1s; }
 
-.content-container {
+.branding .content-container {
   height: 46.5vh;
   background-color: #6b408e; }
-  .content-container p {
+  .branding .content-container p {
     margin-top: 2em;
     line-height: 2em;
     color: white; }
-  .content-container .start-a-project {
-    color: #6b408e;
-    background-color: white;
-    text-align: center;
-    padding: .5em;
-    font-family: itc-avant-garde-gothic-pro;
-    font-weight: 500;
-    font-size: 1.25em;
-    margin-top: 1em; }
+.branding .start-a-project {
+  color: #6b408e;
+  background-color: white;
+  text-align: center;
+  padding: .5em;
+  font-family: itc-avant-garde-gothic-pro;
+  font-weight: 500;
+  font-size: 1.25em;
+  margin-top: 1em; }
+
+.web .content-container {
+  height: 50vh !important;
+  background-color: #ef435e; }
+  .web .content-container p {
+    margin-top: 3em;
+    line-height: 2em;
+    color: white; }
+.web .start-a-project {
+  color: #ef435e;
+  background-color: white;
+  text-align: center;
+  padding: .5em;
+  font-family: itc-avant-garde-gothic-pro;
+  font-weight: 500;
+  font-size: 1.25em;
+  margin-top: 1em; }
 
 /* FOOTER */
 footer {
