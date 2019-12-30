@@ -296,7 +296,7 @@ h3 {
     margin-top: 2em;
     line-height: 2em;
     color: white; }
-  .content-container a:nth-child(2) {
+  .content-container .start-a-project {
     color: #6b408e;
     background-color: white;
     text-align: center;
