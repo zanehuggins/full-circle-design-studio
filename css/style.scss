@@ -240,14 +240,16 @@ p{
     background-size: cover;
     z-index:-2;
 
+
     .title-circle{
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
     border-radius: 100%;
-    background-color: $pink;
+    background-color: $purple;
     margin: auto;
     width: 50vw;
     height: 50vw;
+
 
     h3{
       font-size: 2em;
@@ -256,8 +258,9 @@ p{
       display: block;
       margin-top: 2.5em;
     }
-
   }
+
+
 
     .white-circle-1{
     position: absolute;
@@ -355,6 +358,9 @@ p{
   }
 
   .web{
+    .title-circle{
+      background-color: $pink;
+    }
     .content-container{
       height: 50vh !important;
       background-color: $pink;
