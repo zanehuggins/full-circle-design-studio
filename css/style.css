@@ -20,6 +20,9 @@ h4 {
   font-weight: 400;
   text-align: center; }
 
+p {
+  font-family: itc-avant-garde-gothic-pro; }
+
 .nav-item a {
   text-align: center; }
 
@@ -359,6 +362,11 @@ h4 {
 .social-media .start-a-project:hover {
   text-decoration: none;
   opacity: .75; }
+
+.learn-more {
+  color: white;
+  text-decoration: underline;
+  font-family: itc-avant-garde-gothic-pro; }
 
 /* FOOTER */
 footer {
