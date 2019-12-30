@@ -330,6 +330,25 @@ h4 {
   font-size: 1.25em;
   margin-top: 1em; }
 
+.social-media .title-circle {
+  background-color: #00ae97; }
+.social-media .content-container {
+  height: 50vh !important;
+  background-color: #00ae97; }
+  .social-media .content-container p {
+    margin-top: 3em;
+    line-height: 2em;
+    color: white; }
+.social-media .start-a-project {
+  color: #ef435e;
+  background-color: white;
+  text-align: center;
+  padding: .5em;
+  font-family: itc-avant-garde-gothic-pro;
+  font-weight: 500;
+  font-size: 1.25em;
+  margin-top: 1em; }
+
 /* FOOTER */
 footer {
   position: relative; }

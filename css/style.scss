@@ -384,6 +384,33 @@ p{
     }
   }
 
+  .social-media{
+    .title-circle{
+      background-color: $turqoise;
+    }
+    .content-container{
+      height: 50vh !important;
+      background-color: $turqoise;
+
+      p{
+        margin-top: 3em;
+        line-height: 2em;
+        color: white;
+      }
+    }
+    .start-a-project{
+      color: $pink;
+      background-color: white;
+      text-align: center;
+      padding: .5em;
+      font-family: itc-avant-garde-gothic-pro;
+      font-weight:500;
+      font-size: 1.25em;
+      margin-top: 1em;
+
+    }
+  }
+
   /* FOOTER */
   footer{
     position: relative;
