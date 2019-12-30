@@ -333,6 +333,19 @@ p{
       line-height: 2em;
       color: white;
     }
+
+
+    a:nth-child(3){
+      color: $purple;
+      background-color: white;
+      text-align: center;
+      padding: .5em;
+      font-family: itc-avant-garde-gothic-pro;
+      font-weight:500;
+      font-size: 1.25em;
+      margin-top: 1em;
+      
+    }
   }
 
   /* FOOTER */

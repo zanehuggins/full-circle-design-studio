@@ -296,6 +296,15 @@ h3 {
     margin-top: 2em;
     line-height: 2em;
     color: white; }
+  .content-container a:nth-child(3) {
+    color: #6b408e;
+    background-color: white;
+    text-align: center;
+    padding: .5em;
+    font-family: itc-avant-garde-gothic-pro;
+    font-weight: 500;
+    font-size: 1.25em;
+    margin-top: 1em; }
 
 /* FOOTER */
 footer {
