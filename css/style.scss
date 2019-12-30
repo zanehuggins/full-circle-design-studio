@@ -355,6 +355,10 @@ p{
       margin-top: 1em;
 
     }
+    .start-a-project:hover{
+      text-decoration: none;
+      opacity: .75;
+    }
   }
 
   .web{
@@ -382,6 +386,10 @@ p{
       margin-top: 1em;
 
     }
+    .start-a-project:hover{
+      text-decoration: none;
+      opacity: .75;
+    }
   }
 
   .social-media{
@@ -399,7 +407,7 @@ p{
       }
     }
     .start-a-project{
-      color: $pink;
+      color: $turqoise;
       background-color: white;
       text-align: center;
       padding: .5em;
@@ -407,7 +415,10 @@ p{
       font-weight:500;
       font-size: 1.25em;
       margin-top: 1em;
-
+    }
+    .start-a-project:hover{
+      text-decoration: none;
+      opacity: .75;
     }
   }
 
