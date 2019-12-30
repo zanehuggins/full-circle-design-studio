@@ -15,6 +15,11 @@ img{
 }
 
 h2{
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: bold;
+}
+
+h3{
   font-family: (Avante Gard Condensed);
 }
 
@@ -150,7 +155,7 @@ animation-iteration-count: infinite;
     background-color: $purple;
     float: left;
     border-radius: 100%;
-    h2{
+    h3{
       font-size: 1.5em;
       color: white;
       font-size: 1.5em;
@@ -166,7 +171,7 @@ animation-iteration-count: infinite;
     border-radius: 100%;
     float: left;
 
-    h2{
+    h3{
       color: white;
       font-size: 1.85em;
       text-align: center;
@@ -183,7 +188,7 @@ animation-iteration-count: infinite;
     float: left;
     position: relative;
 
-    h2{
+    h3{
       color: white;
       font-size: 1.5em;
       text-align: center;
@@ -194,4 +199,26 @@ animation-iteration-count: infinite;
 
   .home-services div{
     margin: .5vw;
+  }
+
+  .home-about-us{
+background-color: $turqoise;
+h2{
+  float: left;
+  margin-top: 1em;
+  color: white;
+}
+p{
+  float: left;
+  color: white;
+  padding-bottom: 1em;
+}
+  }
+
+  .recent-work{
+    margin-top: 2em;
+  }
+
+  .map{
+    width: 100%;
   }
