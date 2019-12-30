@@ -201,16 +201,24 @@ h3 {
   height: 30vh; }
 
 /* FOOTER */
-footer ul {
-  list-style: none;
-  width: 75vw;
-  margin-left: 12.5vw;
-  margin-right: 12.5vw; }
-  footer ul li {
-    float: left;
-    margin: .25em; }
-    footer ul li img {
-      min-width: 3em;
-      max-width: 3em; }
+footer {
+  position: relative; }
+  footer ul {
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    list-style: none;
+    width: 14em;
+    padding: 0;
+    margin-top: 1em;
+    padding-bottom: 1em; }
+    footer ul li {
+      float: left;
+      margin: .25em; }
+      footer ul li img {
+        min-width: 3em;
+        max-width: 3em; }
 
 /*# sourceMappingURL=style.css.map */
