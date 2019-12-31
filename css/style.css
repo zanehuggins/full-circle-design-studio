@@ -370,20 +370,39 @@ p {
   font-family: itc-avant-garde-gothic-pro; }
 
 /* ABOUT PAGE */
+.about h2 {
+  color: white;
+  font-size: 5.5em;
+  line-height: 1em; }
+.about p {
+  color: white; }
+
 .who-we-are {
-  height: 46.5vh;
-  background-image: url("../images/background.png");
+  height: 47.5vh;
+  background-image: url("../images/background-2.png");
   background-size: cover; }
+
+.who-we-are-content {
+  height: 47.5vh;
+  background-color: #6b408e; }
 
 .what-we-do {
-  height: 46.5vh;
-  background-image: url("../images/background.png");
+  height: 50vh;
+  background-image: url("../images/background-2.png");
   background-size: cover; }
 
+.what-we-do-content {
+  height: 50vh;
+  background-color: #ef435e; }
+
 .our-values {
-  height: 46.5vh;
-  background-image: url("../images/background.png");
+  height: 50vh;
+  background-image: url("../images/background-2.png");
   background-size: cover; }
+
+.our-values-content {
+  height: 50vh;
+  background-color: #00ae97; }
 
 /* FOOTER */
 footer {
