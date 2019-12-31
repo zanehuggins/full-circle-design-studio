@@ -8,6 +8,10 @@ img {
   max-width: 100%;
   height: auto; }
 
+h1 {
+  font-family: itc-avant-garde-gothic-pro;
+  font-weight: bold; }
+
 h2 {
   font-family: itc-avant-garde-gothic-pro, sans-serif;
   font-weight: bold; }
@@ -435,5 +439,28 @@ footer {
       footer ul li img {
         min-width: 3em;
         max-width: 3em; }
+
+/* ABOUT PAGE */
+.about h2 {
+  color: white;
+  font-size: 2em; }
+.about p {
+  color: white;
+  padding-bottom: 1em; }
+
+.have-questions {
+  background-color: #4d4d4d; }
+
+.about-social-media {
+  list-style: none;
+  margin-bottom: 3em; }
+  .about-social-media li {
+    float: left; }
+
+.contact-list {
+  list-style: none;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em; }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,7 @@
 $purple: rgba(107, 64, 142, 100);
 $pink: rgba(239, 67, 94, 1);
 $turqoise: rgba(0, 174, 151, 1);
+$graphite: rgba(77, 77, 77, 1);
 nav{
   padding: 0;
 }
@@ -12,6 +13,11 @@ img{
   width: 100%;
   max-width: 100%;
   height: auto;
+}
+
+h1{
+  font-family: itc-avant-garde-gothic-pro;
+  font-weight: bold;
 }
 
 h2{
@@ -521,4 +527,38 @@ p{
         }
       }
     }
+  }
+
+
+  /* ABOUT PAGE */
+
+  .about{
+    h2{
+      color: white;
+      font-size: 2em;
+    }
+
+    p{
+      color: white;
+      padding-bottom: 1em;
+    }
+  }
+
+  .have-questions{
+    background-color: $graphite;
+  }
+
+  .about-social-media{
+    list-style: none;
+    margin-bottom: 3em;
+    li{
+      float: left;
+    }
+  }
+
+  .contact-list{
+    list-style: none;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
   }
