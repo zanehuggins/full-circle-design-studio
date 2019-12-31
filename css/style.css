@@ -429,6 +429,72 @@ p {
 .browse-by {
   background-color: rgba(77, 77, 77, 0.14); }
 
+.blog-list {
+  list-style: none; }
+  .blog-list li {
+    margin-top: 1em;
+    margin-bottom: 1em; }
+  .blog-list a:hover {
+    text-decoration: none; }
+
+.blog-list li:hover .blog-photo img {
+  filter: grayscale(0);
+  transition: .25s; }
+
+.blog-photo {
+  float: left; }
+
+.blog-photo img {
+  border-radius: 100%;
+  filter: grayscale(1);
+  transition: .25s;
+  margin-top: .5em;
+  margin-left: .6em;
+  z-index: 1;
+  max-width: 6em; }
+
+.blog-info h4 {
+  float: left;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: .75em;
+  font-family: itc-avant-garde-gothic-pro;
+  width: 100%;
+  text-align: left; }
+.blog-info p {
+  color: black !important;
+  font-size: .85em;
+  line-height: 1em; }
+
+.blog-list-features {
+  list-style: none; }
+  .blog-list-features li {
+    margin-top: 1em;
+    border-top-left-radius: 25%;
+    float: left; }
+    .blog-list-features li .blog-photo {
+      border-top-left-radius: 70%;
+      border-bottom-left-radius: 70%;
+      height: 6.75em; }
+    .blog-list-features li .blog-info {
+      height: 6.75em; }
+  .blog-list-features .blog-feature-content-1 {
+    background-color: #ef435e; }
+  .blog-list-features .blog-feature-content-2 {
+    background-color: #00ae97; }
+  .blog-list-features .blog-feature-content-3 {
+    background-color: #6b408e; }
+  .blog-list-features .blog-feature-content {
+    border-top-left-radius: 75px;
+    border-bottom-left-radius: 75px; }
+    .blog-list-features .blog-feature-content h4 {
+      color: white; }
+    .blog-list-features .blog-feature-content p {
+      color: white !important; }
+  .blog-list-features a:hover {
+    text-decoration: none; }
+
 /* CONTACT PAGE */
 .contact h2 {
   color: white;
