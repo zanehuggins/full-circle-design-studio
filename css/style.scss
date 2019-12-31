@@ -4,6 +4,7 @@ $purple: rgba(107, 64, 142, 100);
 $pink: rgba(239, 67, 94, 1);
 $turqoise: rgba(0, 174, 151, 1);
 $graphite: rgba(77, 77, 77, 1);
+$graphite-lightest: rgba(77, 77, 77, .14);
 nav{
   padding: 0;
 }
@@ -33,6 +34,12 @@ h4{
   color: $pink;
   font-weight: 400;
   text-align: center;
+}
+
+h5{
+  font-family: itc-avant-garde-gothic-pro;
+  font-weight: bold;
+  padding-top: .5em;
 }
 
 p{
@@ -249,6 +256,7 @@ p{
     position: relative;
     height: 50vh;
     background-image: url('../images/background.png');
+    background-position: center;
     background-size: cover;
     z-index:-2;
 
@@ -505,29 +513,15 @@ p{
   }
 }
 
-  /* FOOTER */
-  footer{
-    position: relative;
-    ul{
-      display: block;
-      position: absolute;
-      right: 0; left: 0;
-      margin: auto;
-      list-style: none;
-      width: 14em;
-      padding: 0;
-      margin-top: 1em;
-      padding-bottom: 1em;
-      li{
-        float: left;
-        margin: .25em;
-        img{
-          min-width: 3em;
-          max-width: 3em;
-        }
-      }
-    }
-  }
+
+
+/* BLOG PAGE */
+
+.browse-by{
+  background-color: $graphite-lightest;
+}
+
+
 
 
   /* CONTACT PAGE */
@@ -588,5 +582,31 @@ p{
     p{
       color: white;
       padding-bottom: 0em;
+    }
+  }
+
+
+
+  /* FOOTER */
+  footer{
+    position: relative;
+    ul{
+      display: block;
+      position: absolute;
+      right: 0; left: 0;
+      margin: auto;
+      list-style: none;
+      width: 14em;
+      padding: 0;
+      margin-top: 1em;
+      padding-bottom: 1em;
+      li{
+        float: left;
+        margin: .25em;
+        img{
+          min-width: 3em;
+          max-width: 3em;
+        }
+      }
     }
   }

@@ -24,6 +24,11 @@ h4 {
   font-weight: 400;
   text-align: center; }
 
+h5 {
+  font-family: itc-avant-garde-gothic-pro;
+  font-weight: bold;
+  padding-top: .5em; }
+
 p {
   font-family: itc-avant-garde-gothic-pro;
   font-weight: 300;
@@ -216,6 +221,7 @@ p {
   position: relative;
   height: 50vh;
   background-image: url("../images/background.png");
+  background-position: center;
   background-size: cover;
   z-index: -2; }
   .circle-container .title-circle {
@@ -419,26 +425,9 @@ p {
     margin-top: 2em;
     float: left; }
 
-/* FOOTER */
-footer {
-  position: relative; }
-  footer ul {
-    display: block;
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: auto;
-    list-style: none;
-    width: 14em;
-    padding: 0;
-    margin-top: 1em;
-    padding-bottom: 1em; }
-    footer ul li {
-      float: left;
-      margin: .25em; }
-      footer ul li img {
-        min-width: 3em;
-        max-width: 3em; }
+/* BLOG PAGE */
+.browse-by {
+  background-color: rgba(77, 77, 77, 0.14); }
 
 /* CONTACT PAGE */
 .contact h2 {
@@ -484,5 +473,26 @@ footer {
   .contact-start-a-project p {
     color: white;
     padding-bottom: 0em; }
+
+/* FOOTER */
+footer {
+  position: relative; }
+  footer ul {
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    list-style: none;
+    width: 14em;
+    padding: 0;
+    margin-top: 1em;
+    padding-bottom: 1em; }
+    footer ul li {
+      float: left;
+      margin: .25em; }
+      footer ul li img {
+        min-width: 3em;
+        max-width: 3em; }
 
 /*# sourceMappingURL=style.css.map */
