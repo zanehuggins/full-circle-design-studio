@@ -445,13 +445,15 @@ p {
   float: left; }
 
 .blog-photo img {
+  display: block;
   border-radius: 100%;
   filter: grayscale(1);
   transition: .25s;
-  margin-top: .5em;
-  margin-left: .6em;
+  margin-left: .3em;
+  margin-top: 6px;
   z-index: 1;
-  max-width: 6em; }
+  max-width: 6em;
+  min-width: 6em; }
 
 .blog-info h4 {
   float: left;
