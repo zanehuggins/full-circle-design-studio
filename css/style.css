@@ -440,30 +440,49 @@ footer {
         min-width: 3em;
         max-width: 3em; }
 
-/* ABOUT PAGE */
-.about h2 {
+/* CONTACT PAGE */
+.contact h2 {
   color: white;
-  font-size: 2em; }
-.about p {
+  font-size: 2em;
+  margin-top: 1em; }
+.contact p {
   color: white;
   padding-bottom: 1em; }
+.contact .start-a-project {
+  color: #ef435e;
+  background-color: white;
+  text-align: center;
+  padding: .5em;
+  font-family: itc-avant-garde-gothic-pro;
+  font-weight: 500;
+  font-size: 1.25em;
+  margin-top: 1em; }
+.contact .start-a-project:hover {
+  text-decoration: none;
+  opacity: .75; }
 
 .have-questions {
   background-color: #4d4d4d; }
 
-.about-social-media {
+.contact-social-media {
   list-style: none;
-  margin-bottom: 3em; }
-  .about-social-media li {
+  margin-bottom: 4em; }
+  .contact-social-media li {
     float: left; }
 
 .contact-list {
   list-style: none;
   text-align: center;
-  margin-top: 3em;
-  margin-bottom: 3em; }
+  margin-top: 5em;
+  margin-bottom: 4em;
+  font-family: itc-avant-garde-gothic-pro;
+  font-weight: 400; }
 
-.about-start-a-project {
-  background-color: #ef435e; }
+.contact-start-a-project {
+  background-color: #ef435e;
+  height: 42.5vh; }
+  .contact-start-a-project p {
+    color: white;
+    padding-bottom: 0em; }
 
 /*# sourceMappingURL=style.css.map */

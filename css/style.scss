@@ -530,17 +530,34 @@ p{
   }
 
 
-  /* ABOUT PAGE */
+  /* CONTACT PAGE */
 
-  .about{
+  .contact{
     h2{
       color: white;
       font-size: 2em;
+      margin-top: 1em;
     }
 
     p{
       color: white;
       padding-bottom: 1em;
+    }
+
+    .start-a-project{
+      color: $pink;
+      background-color: white;
+      text-align: center;
+      padding: .5em;
+      font-family: itc-avant-garde-gothic-pro;
+      font-weight:500;
+      font-size: 1.25em;
+      margin-top: 1em;
+
+    }
+    .start-a-project:hover{
+      text-decoration: none;
+      opacity: .75;
     }
   }
 
@@ -548,9 +565,9 @@ p{
     background-color: $graphite;
   }
 
-  .about-social-media{
+  .contact-social-media{
     list-style: none;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
     li{
       float: left;
     }
@@ -559,12 +576,17 @@ p{
   .contact-list{
     list-style: none;
     text-align: center;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 5em;
+    margin-bottom: 4em;
+    font-family: itc-avant-garde-gothic-pro;
+    font-weight: 400;
   }
 
-  .about-start-a-project{
+  .contact-start-a-project{
     background-color: $pink;
+    height: 42.5vh;
+    p{
+      color: white;
+      padding-bottom: 0em;
+    }
   }
-
-  
