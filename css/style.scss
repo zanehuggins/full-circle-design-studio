@@ -31,6 +31,7 @@ h4{
 
 p{
   font-family: itc-avant-garde-gothic-pro;
+  font-weight: 300;
 }
 
 .nav-item a{
@@ -434,6 +435,27 @@ p{
   color: white;
   text-decoration: underline;
   font-family: itc-avant-garde-gothic-pro;
+}
+
+
+/* ABOUT PAGE */
+
+.who-we-are{
+  height: 46.5vh;
+  background-image: url('../images/background.png');
+  background-size: cover;
+}
+
+.what-we-do{
+  height: 46.5vh;
+  background-image: url('../images/background.png');
+  background-size: cover;
+}
+
+.our-values{
+    height: 46.5vh;
+    background-image: url('../images/background.png');
+    background-size: cover;
 }
 
   /* FOOTER */
