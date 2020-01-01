@@ -516,6 +516,11 @@ p{
 
 
 /* BLOG PAGE */
+.featured-posts{
+  h2{
+    color: $pink !important;
+  }
+}
 
 .browse-by{
   background-color: $graphite-lightest;
