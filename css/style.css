@@ -223,7 +223,8 @@ p {
   background-image: url("../images/background.png");
   background-position: center;
   background-size: cover;
-  z-index: -2; }
+  z-index: -2;
+  overflow: hidden; }
   .circle-container .title-circle {
     position: absolute;
     top: 0;
@@ -578,5 +579,81 @@ footer {
       footer ul li img {
         min-width: 3em;
         max-width: 3em; }
+
+@media (min-width: 576px) {
+  .title-circle {
+    height: 25vw !important;
+    width: 25vw !important; }
+
+  .white-circle-1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin: auto;
+    width: 27.25vw !important;
+    height: 27.25vw !important;
+    opacity: 0;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: 1s; }
+
+  .white-circle-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin: auto;
+    width: 30vw !important;
+    height: 30vw !important;
+    opacity: 0;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: .25s;
+    transition: 1s; }
+
+  .white-circle-3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin: auto;
+    width: 32.75vw !important;
+    height: 32.75vw !important;
+    opacity: 0;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: .5s;
+    transition: 1s; }
+
+  .white-circle-4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin: auto;
+    width: 35.5vw !important;
+    height: 35.5vw !important;
+    opacity: 0;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: .75s;
+    transition: 1s; } }
 
 /*# sourceMappingURL=style.css.map */
