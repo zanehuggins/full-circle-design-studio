@@ -182,11 +182,17 @@ animation-iteration-count: infinite;
     background-color: $purple;
     float: left;
     border-radius: 100%;
+
+
     h3{
-      font-size: 1.5em;
+      font-size: 1.0em;
       color: white;
       font-size: 1.5em;
       text-align: center;
+      position: relative;
+      display: block;
+      margin: auto;
+      top: 35%; left: 0; right: 0;
     }
   }
 
@@ -198,10 +204,14 @@ animation-iteration-count: infinite;
     float: left;
 
     h3{
+      font-size: 1.0em;
       color: white;
-      font-size: 1.85em;
+      font-size: 1.5em;
       text-align: center;
-      margin-top: 1.5em;
+      position: relative;
+      display: block;
+      margin: auto;
+      top: 35%; left: 0; right: 0;
     }
   }
 
@@ -215,11 +225,14 @@ animation-iteration-count: infinite;
     position: relative;
 
     h3{
+      font-size: 1.0em;
       color: white;
       font-size: 1.5em;
       text-align: center;
-      position: absolute;
-      margin-top: 1.25em;
+      position: relative;
+      display: block;
+      margin: auto;
+      top: 25%; left: 0; right: 0;
     }
   }
 
@@ -433,7 +446,9 @@ padding-right: .5em;
       background-color: $turqoise;
 
       h3{
-        margin-top: 1.75em;
+        margin-top: 35%;
+        display: block;
+        top: 0; bottom: 0; left: 0; right: 0;
       }
     }
     .content-container{
@@ -833,8 +848,8 @@ opacity: 0;
 animation-name: circle;
 animation-duration: 5s;
 animation-iteration-count: infinite;
-  animation-delay: .75s;
-  transition: 1s;
+animation-delay: .75s;
+transition: 1s;
 }
 
 
@@ -849,7 +864,75 @@ animation-iteration-count: infinite;
 
 }
 
+.branding{
+
+.circle-container{
+min-height: 25em !important;
+}
+.content-container{
+  min-height: 25em;
+}
+}
+.web{
+  .circle-container{
+  min-height: 25em !important;
+  }
+  .content-container{
+    min-height: 25em;
+  }
+}
+.social-media{
+  .circle-container{
+  min-height: 25em !important;
+  }
+  .content-container{
+    min-height: 25em;
+  }
+}
 
 
+
+}
+
+
+
+@media (min-width: 768px){
+
+  .branding{
+    .content-container{
+      height: 50vh;
+    }
+  }
+
+  .start-a-project{
+    font-size: 1em !important;
+
+  }
+
+  .branding{
+
+  .circle-container{
+  min-height: 50vh !important;
+  }
+  .content-container{
+    min-height: 50vh;
+  }
+  }
+  .web{
+    .circle-container{
+    min-height: 50vh !important;
+    }
+    .content-container{
+      min-height: 50vh;
+    }
+  }
+  .social-media{
+    .circle-container{
+    min-height: 50vh !important;
+    }
+    .content-container{
+      min-height: 50vh;
+    }
+  }
 
 }
