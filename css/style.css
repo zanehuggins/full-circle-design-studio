@@ -165,8 +165,7 @@ p {
     font-size: 1.5em;
     color: white;
     font-size: 1.5em;
-    text-align: center;
-    margin-top: 1.85em; }
+    text-align: center; }
 
 .home-services a:nth-child(2) div {
   width: 30vw;
@@ -241,7 +240,24 @@ p {
       color: white;
       text-align: center;
       display: block;
-      margin-top: 2.5em; }
+      margin: auto;
+      position: absolute;
+      top: 38%;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+  .circle-container .title-circle-3 h3 {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 1em;
+    float: left;
+    padding-left: .5em;
+    padding-right: .5em; }
   .circle-container .white-circle-1 {
     position: absolute;
     top: 0;
@@ -654,6 +670,12 @@ footer {
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-delay: .75s;
-    transition: 1s; } }
+    transition: 1s; }
+
+  .branding .content-container {
+    height: 50vh; }
+
+  .start-a-project {
+    font-size: 1em !important; } }
 
 /*# sourceMappingURL=style.css.map */

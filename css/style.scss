@@ -187,7 +187,6 @@ animation-iteration-count: infinite;
       color: white;
       font-size: 1.5em;
       text-align: center;
-      margin-top: 1.85em;
     }
   }
 
@@ -277,8 +276,23 @@ p{
       color: white;
       text-align: center;
       display: block;
-      margin-top: 2.5em;
+      margin: auto;
+      position: absolute;
+      top: 38%; bottom: 0; left: 0; right: 0;
     }
+  }
+
+  .title-circle-3{
+h3{
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  line-height: 1em;
+  float: left;
+padding-left: .5em;
+padding-right: .5em;
+}
   }
 
 
@@ -351,6 +365,7 @@ p{
       animation-delay: .75s;
       transition: 1s;
     }
+
   }
 
 .branding{
@@ -823,6 +838,16 @@ animation-iteration-count: infinite;
 }
 
 
+.branding{
+  .content-container{
+    height: 50vh;
+  }
+}
+
+.start-a-project{
+  font-size: 1em !important;
+
+}
 
 
 
