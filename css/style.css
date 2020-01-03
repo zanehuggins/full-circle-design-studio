@@ -51,7 +51,11 @@ p {
   margin: auto; }
 
 .nav-item a {
-  text-align: center; }
+  text-align: center;
+  font-family: itc-avant-garde-gothic-pro; }
+
+.active {
+  color: #ef435e !important; }
 
 /* HOME PAGE */
 .home {
