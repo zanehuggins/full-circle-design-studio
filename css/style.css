@@ -1001,6 +1001,15 @@ footer {
     font-size: 1em; } }
 @media (min-width: 1080px) {
   .content-container p {
+    margin-top: 4em !important; }
+
+  .who-we-are-content p {
+    margin-top: 4em !important; }
+
+  .what-we-do-content p {
+    margin-top: 4em !important; }
+
+  .our-values-content p {
     margin-top: 4em !important; } }
 
 /*# sourceMappingURL=style.css.map */
