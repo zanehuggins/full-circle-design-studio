@@ -1236,3 +1236,10 @@ p{
   font-size: 1em;
 }
 }
+
+
+@media (min-width: 1080px){
+  .content-container p{
+    margin-top: 4em !important;
+  }
+}
