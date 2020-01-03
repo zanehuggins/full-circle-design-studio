@@ -604,6 +604,12 @@ color: $pink !important;
 
 .browse-by{
   background-color: $graphite-lightest;
+
+  a{
+    color: black;
+    font-family: itc-avant-garde-gothic-pro;
+    padding: .65em;
+  }
 }
 
 .blog-list{
@@ -1226,5 +1232,7 @@ min-height: 25em !important;
     transition: 5s;
     }
 
-
+p{
+  font-size: 1em;
+}
 }

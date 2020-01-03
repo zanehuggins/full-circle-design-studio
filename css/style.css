@@ -505,6 +505,10 @@ p {
 
 .browse-by {
   background-color: rgba(77, 77, 77, 0.14); }
+  .browse-by a {
+    color: black;
+    font-family: itc-avant-garde-gothic-pro;
+    padding: .65em; }
 
 .blog-list {
   list-style: none; }
@@ -991,6 +995,9 @@ footer {
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-delay: 1.75s;
-    transition: 5s; } }
+    transition: 5s; }
+
+  p {
+    font-size: 1em; } }
 
 /*# sourceMappingURL=style.css.map */
