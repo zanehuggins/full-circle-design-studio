@@ -1,10 +1,14 @@
 /* COLOR PALETTE */
 
 $purple: rgba(107, 64, 142, 100);
+$purple-light: rgba(107, 64, 142, .77);
 $pink: rgba(239, 67, 94, 1);
+$pink-light: rgba(239, 67, 94, .77);
 $turqoise: rgba(0, 174, 151, 1);
+$turqoise-light: rgba(0, 174, 151, .63);
 $graphite: rgba(77, 77, 77, 1);
 $graphite-lightest: rgba(77, 77, 77, .14);
+
 nav{
   padding: 0;
 }
@@ -48,6 +52,22 @@ p{
   line-height: 2em;
 }
 
+.background-div{
+  position: absolute;
+  background-image: url('../images/background.png');
+  background-position: left;
+  background-size: cover;
+  background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 92.5vh;
+ z-index: -1;
+ padding: 0;
+ display: block;
+ top: 0; bottom: 0; left: 0; right: 0;
+ margin: auto;
+}
+
 .nav-item a{
   text-align: center;
 }
@@ -55,9 +75,6 @@ p{
 /* HOME PAGE */
 
 .home{
-  background-image: url('../images/background.png');
-  background-position: left;
-  background-size: cover;
   height: 92.5vh;
   position: relative;
   overflow: hidden;
@@ -74,8 +91,8 @@ p{
 .purple-circle{
   display: block;
   position: absolute;
-  width: 70vw;
-  height: 70vw;
+  width: 17em;
+  height: 17em;
   border-radius: 100%;
   border: 20px $purple solid;
   background-color: rgba(0, 0, 0, .75);
@@ -176,12 +193,15 @@ animation-iteration-count: infinite;
   bottom: 5em;
 }
 
+
+
   .home-services a:nth-child(1) div{
     width: 30vw;
     height: 30vw;
     background-color: $purple;
     float: left;
     border-radius: 100%;
+    transition: .25s;
 
 
     h3{
@@ -193,8 +213,16 @@ animation-iteration-count: infinite;
       display: block;
       margin: auto;
       top: 35%; left: 0; right: 0;
+
     }
   }
+
+  .home-services a:nth-child(1) div:hover{
+    background-color: $purple-light;
+    transition: .25s;
+  }
+
+
 
   .home-services a:nth-child(2) div{
     width: 30vw;
@@ -202,6 +230,7 @@ animation-iteration-count: infinite;
     background-color: $pink;
     border-radius: 100%;
     float: left;
+    transition: .25s;
 
     h3{
       font-size: 1.0em;
@@ -212,7 +241,13 @@ animation-iteration-count: infinite;
       display: block;
       margin: auto;
       top: 35%; left: 0; right: 0;
+
     }
+  }
+
+  .home-services a:nth-child(2) div:hover{
+    background-color: $pink-light;
+    transition: .25s;
   }
 
   .home-services a:nth-child(3) div{
@@ -223,6 +258,7 @@ animation-iteration-count: infinite;
     border-radius: 100%;
     float: left;
     position: relative;
+    transition: .25s;
 
     h3{
       font-size: 1.0em;
@@ -234,6 +270,12 @@ animation-iteration-count: infinite;
       margin: auto;
       top: 25%; left: 0; right: 0;
     }
+  }
+
+
+  .home-services a:nth-child(3) div:hover{
+    background-color: $turqoise-light;
+    transition: .25s;
   }
 
   .home-services div{
@@ -778,6 +820,83 @@ color: $pink !important;
 
 @media (min-width: 576px){
 
+.home-services{
+  position: absolute;
+  bottom: 2em;
+}
+
+  .home-services a:nth-child(1) div{
+    width: 22.5vw;
+    height: 22.5vw;
+    background-color: $purple;
+    float: left;
+    border-radius: 100%;
+    margin-left: 15vw;
+
+    max-width: 14em;
+    max-height: 14em;
+
+
+    h3{
+      font-size: 1.0em;
+      color: white;
+      font-size: 1.5em;
+      text-align: center;
+      position: relative;
+      display: block;
+      margin: auto;
+      top: 35%; left: 0; right: 0;
+    }
+  }
+
+  .home-services a:nth-child(2) div{
+    width: 22.5vw;
+    height: 22.5vw;
+    background-color: $pink;
+    border-radius: 100%;
+    float: left;
+    max-width: 14em;
+    max-height: 14em;
+
+    h3{
+      font-size: 1.0em;
+      color: white;
+      font-size: 1.5em;
+      text-align: center;
+      position: relative;
+      display: block;
+      margin: auto;
+      top: 35%; left: 0; right: 0;
+    }
+  }
+
+  .home-services a:nth-child(3) div{
+    width: 22.5vw;
+    height: 22.5vw;
+    color: white;
+    background-color: $turqoise;
+    border-radius: 100%;
+    float: left;
+    position: relative;
+    max-width: 14em;
+    max-height: 14em;
+
+    h3{
+      font-size: 1.0em;
+      color: white;
+      font-size: 1.5em;
+      text-align: center;
+      position: relative;
+      display: block;
+      margin: auto;
+      top: 25%; left: 0; right: 0;
+    }
+  }
+
+
+  /*--------------------------*/
+
+
 .title-circle{
   height: 25vw !important;
   width: 25vw !important;
@@ -898,6 +1017,24 @@ min-height: 25em !important;
 
 @media (min-width: 768px){
 
+/* -------------------------- */
+.home{
+  img{
+    width: 12em;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+  }
+}
+
+/* -------------------------- */
+
+.home-services{
+    width: 100vw;
+
+}
+
   .branding{
     .content-container{
       height: 50vh;
@@ -934,5 +1071,157 @@ min-height: 25em !important;
       min-height: 50vh;
     }
   }
+}
+
+@media(min-width: 960px){
+
+.purple-circle{
+  width: 25vw;
+  height: 25vw;
+}
+
+  .home-services{
+    position: absolute;
+    bottom: 2em;
+  }
+
+    .home-services a:nth-child(1) div{
+      float: left;
+      border-radius: 100%;
+      margin-left: 24vw !important;
+      max-width: 14vw;
+      max-height: 14vw;
+
+
+      h3{
+        font-size: 1.0em;
+        color: white;
+        font-size: 1.85em;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin: auto;
+        top: 40%; left: 0; right: 0;
+      }
+    }
+
+    .home-services a:nth-child(2) div{
+      background-color: $pink;
+      border-radius: 100%;
+      float: left;
+      max-width: 14vw;
+      max-height: 14vw;
+
+      h3{
+        font-size: 1.0em;
+        color: white;
+        font-size: 1.85em;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin: auto;
+        top: 40%; left: 0; right: 0;
+      }
+    }
+
+    .home-services a:nth-child(3) div{
+      color: white;
+      background-color: $turqoise;
+      border-radius: 100%;
+      float: left;
+      position: relative;
+      max-width: 14vw;
+      max-height: 14vw;
+
+      h3{
+        font-size: 1.0em;
+        color: white;
+        font-size: 1.85em;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin: auto;
+        top: 30%; left: 0; right: 0;
+      }
+    }
+
+    .home-services div{
+      margin: 2vw;
+    }
+
+    .title-circle{
+      height: 25vw !important;
+      width: 25vw !important;
+    }
+
+    .white-circle-1{
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin: auto;
+    width: 30vw !important;
+    height: 30vw !important;
+    opacity: 0;
+
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: 5s;
+
+    }
+
+    .white-circle-2{
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin: auto;
+    width: 35vw !important;
+    height: 35vw !important;
+    opacity: 0;
+
+    animation-name: circle;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+      animation-delay: .25s;
+      transition: 5s;
+
+    }
+
+    .white-circle-3{
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin: auto;
+    width: 40vw !important;
+    height: 40vw !important;
+    opacity: 0;
+
+    animation-name: circle;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    transition: 5s;
+    }
+
+    .white-circle-4{
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin: auto;
+    width: 45vw !important;
+    height: 45vw !important;
+    opacity: 0;
+
+    animation-name: circle;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.75s;
+    transition: 5s;
+    }
+
 
 }
