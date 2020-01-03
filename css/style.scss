@@ -651,6 +651,7 @@ color: $pink !important;
 
 
   .blog-info{
+padding-left: 1em;
     h4{
       float: left;
       color: black;
@@ -1253,5 +1254,13 @@ p{
 
   .our-values-content p{
     margin-top: 4em !important;
+  }
+
+  .blog-info{
+    padding-left: .5em;
+  }
+
+  .blog-posts-container{
+    margin-top: 4.5em;
   }
 }
