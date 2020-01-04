@@ -801,7 +801,7 @@ padding-left: 1em;
   .contact-list{
     list-style: none;
     text-align: center;
-    margin-top: 5em;
+    margin-top: 2em;
     margin-bottom: 4em;
     font-family: itc-avant-garde-gothic-pro;
     font-weight: 400;
@@ -1041,6 +1041,17 @@ min-height: 25em !important;
 
 }
 
+.connect-with-us{
+  margin-top: 2em;
+}
+
+.contact-list{
+  margin-top: 1em;
+  li{
+    text-align: left;
+  }
+}
+
 
 
 @media (min-width: 768px){
@@ -1256,6 +1267,12 @@ min-height: 25em !important;
 p{
   font-size: 1em;
 }
+
+
+
+.contact-start-a-project{
+  height: 27em;
+}
 }
 
 
@@ -1388,6 +1405,7 @@ p{
     transition: 1s;
   }
 }
+
 
 
 

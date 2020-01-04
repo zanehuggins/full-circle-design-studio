@@ -637,7 +637,7 @@ p {
 .contact-list {
   list-style: none;
   text-align: center;
-  margin-top: 5em;
+  margin-top: 2em;
   margin-bottom: 4em;
   font-family: itc-avant-garde-gothic-pro;
   font-weight: 400; }
@@ -834,6 +834,14 @@ footer {
     min-height: 25em !important; }
   .social-media .content-container {
     min-height: 25em; } }
+.connect-with-us {
+  margin-top: 2em; }
+
+.contact-list {
+  margin-top: 1em; }
+  .contact-list li {
+    text-align: left; }
+
 @media (min-width: 768px) {
   /* -------------------------- */
   .home img {
@@ -1014,7 +1022,10 @@ footer {
     transition: 5s; }
 
   p {
-    font-size: 1em; } }
+    font-size: 1em; }
+
+  .contact-start-a-project {
+    height: 27em; } }
 @media (min-width: 1080px) {
   .content-container p {
     margin-top: 4em !important; }
