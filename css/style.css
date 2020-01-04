@@ -527,6 +527,10 @@ p {
   filter: grayscale(0);
   transition: .25s; }
 
+.blog-list-features li:hover .blog-photo img {
+  filter: grayscale(0) !important;
+  transition: .25s; }
+
 .blog-photo {
   float: left; }
 
