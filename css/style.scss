@@ -738,7 +738,20 @@ padding-left: 1em;
   }
 }
 
+.featured-posts-h2{
+  color: $pink !important;
+padding-left: 1em;
+}
 
+.blog-posts-container{
+  padding: 0;
+
+  li{
+    margin-top: 0em;
+    margin-bottom: .5em;
+    max-height: 6.5em;
+  }
+}
 
 
 
@@ -1025,6 +1038,7 @@ min-height: 25em !important;
 
 
 
+
 }
 
 
@@ -1085,6 +1099,8 @@ min-height: 25em !important;
       min-height: 50vh;
     }
   }
+
+
 }
 
 @media(min-width: 960px){
@@ -1265,7 +1281,4 @@ p{
     padding-right: 0;
   }
 
-  .blog-posts-container{
-    margin-top: 4.5em;
-  }
 }

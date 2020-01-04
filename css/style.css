@@ -593,6 +593,17 @@ p {
 .back-button p {
   color: black !important; }
 
+.featured-posts-h2 {
+  color: #ef435e !important;
+  padding-left: 1em; }
+
+.blog-posts-container {
+  padding: 0; }
+  .blog-posts-container li {
+    margin-top: 0em;
+    margin-bottom: .5em;
+    max-height: 6.5em; }
+
 /* CONTACT PAGE */
 .contact h2 {
   color: white;
@@ -1019,9 +1030,6 @@ footer {
 
   .blog-info {
     padding-left: .5em;
-    padding-right: 0; }
-
-  .blog-posts-container {
-    margin-top: 4.5em; } }
+    padding-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */
