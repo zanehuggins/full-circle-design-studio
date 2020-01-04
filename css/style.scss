@@ -1281,4 +1281,120 @@ p{
     padding-right: 0;
   }
 
+
+  .title-circle{
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  border-radius: 100%;
+  background-color: $purple;
+  margin: auto;
+  width: 15vw !important;
+  height: 15vw !important;
+
+
+  h3{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 38%; bottom: 0; left: 0; right: 0;
+  }
+  }
+
+  .title-circle-3{
+  h3{
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  line-height: 1em;
+  float: left;
+  padding-left: .5em;
+  padding-right: .5em;
+  }
+  }
+
+
+
+
+  .white-circle-1{
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin: auto;
+  width: 20vw !important;
+  height: 20vw !important;
+  opacity: 0;
+
+  animation-name: circle;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transition: 1s;
+
+  }
+
+  .white-circle-2{
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin: auto;
+  width: 25vw !important;
+  height: 25vw !important;
+  opacity: 0;
+
+  animation-name: circle;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+    animation-delay: .25s;
+    transition: 1s;
+
+  }
+
+  .white-circle-3{
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin: auto;
+  width: 30vw !important;
+  height: 30vw !important;
+  opacity: 0;
+
+  animation-name: circle;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: .5s;
+  transition: 1s;
+  }
+
+  .white-circle-4{
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin: auto;
+  width: 35vw !important;
+  height: 35vw !important;
+  opacity: 0;
+
+  animation-name: circle;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+    animation-delay: .75s;
+    transition: 1s;
+  }
+
+
+
+
+
+
+
+
+
+
 }
