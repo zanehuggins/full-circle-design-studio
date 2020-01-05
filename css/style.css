@@ -1155,5 +1155,37 @@ footer {
     animation-iteration-count: infinite;
     animation-delay: .75s;
     transition: 1s; } }
+/* --------------------------------------- ADDITIONS --------------------------------------- */
+/* CONTACT-FORM */
+.form-info {
+  margin-top: 1em;
+  margin-bottom: 2em; }
+  .form-info label {
+    margin-top: 1em; }
+
+.form-options {
+  background-color: #ef435e; }
+  .form-options label {
+    color: white; }
+  .form-options input {
+    margin-bottom: 2em; }
+
+.message {
+  margin-top: 2em; }
+  .message textarea {
+    height: 15vh; }
+  .message input {
+    margin-top: 2em;
+    height: 3em;
+    color: white;
+    background-color: #ef435e;
+    border: none;
+    transition: .25s; }
+  .message input:hover {
+    background-color: rgba(239, 67, 94, 0.77);
+    transition: .25s; }
+
+form label {
+  font-family: itc-avant-garde-gothic-pro; }
 
 /*# sourceMappingURL=style.css.map */

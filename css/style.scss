@@ -1430,3 +1430,56 @@ p{
 
 
 }
+
+
+
+
+/* --------------------------------------- ADDITIONS --------------------------------------- */
+
+/* CONTACT-FORM */
+
+.form-info{
+  margin-top: 1em;
+  margin-bottom: 2em;
+  label{
+    margin-top: 1em;
+  }
+}
+
+.form-options{
+  background-color: $pink;
+
+  label{
+    color: white;
+  }
+  input{
+    margin-bottom: 2em;
+  }
+}
+
+.message{
+  margin-top: 2em;
+  textarea{
+    height: 15vh;
+  }
+
+  input{
+    margin-top: 2em;
+    height: 3em;
+    color: white;
+    background-color: $pink;
+    border: none;
+    transition: .25s;
+  }
+
+  input:hover{
+    background-color: $pink-light;
+    transition: .25s;
+  }
+}
+
+form{
+  label{
+    font-family: itc-avant-garde-gothic-pro;
+  }
+}
