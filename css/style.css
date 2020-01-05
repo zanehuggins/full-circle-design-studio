@@ -622,8 +622,8 @@ p {
   color: white;
   padding-bottom: 1em; }
 .contact .start-a-project {
-  color: #ef435e;
-  background-color: white;
+  color: white;
+  background-color: #4d4d4d;
   text-align: center;
   padding: .5em;
   font-family: itc-avant-garde-gothic-pro;
@@ -635,7 +635,7 @@ p {
   opacity: .75; }
 
 .have-questions {
-  background-color: #4d4d4d; }
+  background-color: #6b408e; }
 
 .contact-social-media {
   list-style: none;
@@ -652,10 +652,12 @@ p {
   font-weight: 400; }
 
 .contact-start-a-project {
-  background-color: #ef435e;
+  background-color: rgba(77, 77, 77, 0.14);
   height: 42.5vh; }
+  .contact-start-a-project h2 {
+    color: black !important; }
   .contact-start-a-project p {
-    color: white;
+    color: black;
     padding-bottom: 0em; }
 
 /* FOOTER */
@@ -1157,6 +1159,9 @@ footer {
     transition: 1s; } }
 /* --------------------------------------- ADDITIONS --------------------------------------- */
 /* CONTACT-FORM */
+.start-project-h2 {
+  color: black !important; }
+
 .form-info {
   margin-top: 1em;
   margin-bottom: 2em; }
@@ -1164,9 +1169,12 @@ footer {
     margin-top: 1em; }
 
 .form-options {
-  background-color: #ef435e; }
+  background-color: rgba(77, 77, 77, 0.14);
+  padding: 1em !important; }
+  .form-options h2 {
+    color: black; }
   .form-options label {
-    color: white; }
+    color: black; }
   .form-options input {
     margin-bottom: 2em; }
 

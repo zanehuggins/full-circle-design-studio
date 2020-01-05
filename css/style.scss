@@ -784,16 +784,16 @@ padding-left: 1em;
     }
 
     .start-a-project{
-      color: $pink;
-      background-color: white;
+      color: white;
+      background-color: $graphite;
       text-align: center;
       padding: .5em;
       font-family: itc-avant-garde-gothic-pro;
       font-weight:500;
       font-size: 1.25em;
       margin-top: 1em;
-
     }
+
     .start-a-project:hover{
       text-decoration: none;
       opacity: .75;
@@ -801,7 +801,7 @@ padding-left: 1em;
   }
 
   .have-questions{
-    background-color: $graphite;
+    background-color: $purple;
   }
 
   .contact-social-media{
@@ -822,10 +822,14 @@ padding-left: 1em;
   }
 
   .contact-start-a-project{
-    background-color: $pink;
+    background-color: $graphite-lightest;
     height: 42.5vh;
+
+    h2{
+      color: black !important;
+    }
     p{
-      color: white;
+      color: black;
       padding-bottom: 0em;
     }
   }
@@ -1437,6 +1441,9 @@ p{
 /* --------------------------------------- ADDITIONS --------------------------------------- */
 
 /* CONTACT-FORM */
+.start-project-h2{
+  color: black !important;
+}
 
 .form-info{
   margin-top: 1em;
@@ -1447,10 +1454,15 @@ p{
 }
 
 .form-options{
-  background-color: $pink;
+  background-color: $graphite-lightest;
+  padding: 1em !important;
+
+  h2{
+    color: black;
+  }
 
   label{
-    color: white;
+    color: black;
   }
   input{
     margin-bottom: 2em;
